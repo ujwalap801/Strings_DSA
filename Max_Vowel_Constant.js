@@ -147,7 +147,7 @@ for(let i=0;i<s.length;i++)
  let ch = s[i];
         
         // Manual vowel check without includes()
-        if (ch === 'a' || ch === 'e' || ch === 'i' || ch === 'o' || ch === 'u') {
+    if (ch === 'a' || ch === 'e' || ch === 'i' || ch === 'o' || ch === 'u') {
     maxVowel = Math.max(maxVowel,hashMap[s[i]])
 
 }

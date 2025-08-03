@@ -7,3 +7,5 @@
 ## [Jewels_Stones](https://leetcode.com/problems/jewels-and-stones/description/)
 
 ## [Max_Vowel_Constant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/description/)
+
+## [Balanced_String](https://leetcode.com/problems/split-a-string-in-balanced-strings/)
