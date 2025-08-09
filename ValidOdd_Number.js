@@ -47,3 +47,8 @@ var largestOddNumber = function(num) {
 
     return "";
       }
+
+
+s="abcde";
+    console.log(s.substring(-2)); 
+    console.log(s.slice());
