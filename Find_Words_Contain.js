@@ -48,3 +48,40 @@ var findWordsContaining = function(words, x) {
     return res;
     
 };
+
+
+
+// USING MATCH BY CREATING REGULAR EXPRESSION
+/**
+ * @param {string[]} words
+ * @param {character} x
+ * @return {number[]}
+ */
+var findWordsContaining = function(words, x) {
+    /**
+ * @param {string[]} words
+ * @param {character} x
+ * @return {number[]}
+ */
+
+    
+    let n = words.length;
+    let ans =[];
+    for(let i=0;i<n;i++)
+    {
+        let charWord = words[i];
+        for(let j=0;j<charWord.length ;j++)
+        {
+
+            let regex = new RegExp(x);
+            if(charWord[j].match(regex))
+            {
+                  ans.push(i);
+                  break;
+            }
+        }
+    }
+
+    return ans;
+
+}

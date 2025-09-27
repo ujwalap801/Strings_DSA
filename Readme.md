@@ -23,3 +23,4 @@
 
 ## [Group_Anagram](https://leetcode.com/problems/group-anagrams/description/)
 
+## [Number_Vowels_String](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/description/)
