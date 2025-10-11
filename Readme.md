@@ -24,3 +24,10 @@
 ## [Group_Anagram](https://leetcode.com/problems/group-anagrams/description/)
 
 ## [Number_Vowels_String](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/description/)
+
+
+
+## [Count_Vowel_SubString](https://leetcode.com/problems/count-vowel-substrings-of-a-string/description/)
+
+
+## [Custom_Sort](https://leetcode.com/problems/custom-sort-string/)
