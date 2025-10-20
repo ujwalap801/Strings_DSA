@@ -110,6 +110,27 @@ var isPalindrome = function(s) {
     return true;
 };
 
+
+
+
+ str = str.toLowerCase().match(/[a-z0-9]/gi) || []
+
+ 
+    let i = 0;
+    let j = str.length - 1;
+    while (i < j)
+    {
+        if (str[i] !== str[j])
+        {
+            return false;
+        }
+        i++;
+        j--;
+    }
+
+    return true;
+
+    
 // APPROACH-3
 
 var largestOddNumber = function(num) {

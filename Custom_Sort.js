@@ -45,3 +45,61 @@ for(let key in map)
 return result;
     // console.log(map)
 };
+
+
+
+// same logic
+/**
+ * @param {string} order
+ * @param {string} s
+ * @return {string}
+ */
+var customSortString = function(order, s) {
+    
+    let result =[];
+
+    let count =0;
+    let map ={};
+for(let i=0; i<s.length;i++)
+{
+    if(!map[s[i]])
+    {
+        map[s[i]] =1;
+    }else{
+        map[s[i]]++;
+    }
+    
+}
+
+// console.log(map)
+
+
+for(let j =0;j<order.length;)
+
+{
+
+    if(map[order[j]] >0)
+    {
+       result.push(order[j]);
+        count++;
+        map[order[j]]--
+
+    }
+    else{
+        j++;
+    }
+v
+}
+
+
+
+for(let key in map)
+{
+    while (map[key] > 0) {
+ result.push(key)
+    map[key]--; 
+  }
+}
+
+return result.join("");
+};
