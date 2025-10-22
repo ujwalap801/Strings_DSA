@@ -8,6 +8,8 @@
 
 ## [Find_Words_Containing](https://leetcode.com/problems/find-words-containing-character/)
 
+## [First_Unique_Character_String](https://leetcode.com/problems/first-unique-character-in-a-string/)
+
 ## [Group_Anagram](https://leetcode.com/problems/group-anagrams/description/)
 
 ## [Isomorphic_String](https://leetcode.com/problems/isomorphic-strings/description/)
@@ -33,6 +35,8 @@
 ## [Reverse_VOwels_String]
 
 ## [SecondLargest_DigitString](https://leetcode.com/problems/second-largest-digit-in-a-string)
+
+## [String_Compression](https://leetcode.com/problems/string-compression/)
 
 ## [Valid_Anagram](https://leetcode.com/problems/valid-anagram/description/)
 
