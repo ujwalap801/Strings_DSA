@@ -36,6 +36,8 @@
 
 ## [SecondLargest_DigitString](https://leetcode.com/problems/second-largest-digit-in-a-string)
 
+## [String_Compression_NamasteJS](https://namastedev.com/practice/compress-string-with-limited-repetition)
+
 ## [String_Compression](https://leetcode.com/problems/string-compression/)
 
 ## [Valid_Anagram](https://leetcode.com/problems/valid-anagram/description/)
